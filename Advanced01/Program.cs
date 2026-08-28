@@ -56,6 +56,15 @@
 
 
             #endregion
+
+            #region Q6 : Generic Interface
+            //Console.WriteLine("Generic interface is an interface that uses type parameter, so it can work with different data types");
+            //Console.WriteLine("For Example:");
+            //IRepository<string> prdt =new ProductRepository();
+            //prdt.Add("Smartphone");
+            //string GetItem = prdt.Get();
+            //Console.WriteLine($"The product : {GetItem}");
+            #endregion
         }
     }
 }
