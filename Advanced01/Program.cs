@@ -15,6 +15,18 @@
             //int GetNum = container.Get();
             //Console.WriteLine(GetNum);
             #endregion
+
+            #region Q3 : Multiple Type Parameter
+            //Console.WriteLine("Multiple parameter is when generic class has more than one type parameters.");
+            //Console.WriteLine("\nFor Example:");
+            //Pair<string, int> pair = new Pair<string, int>("Iphone", 30000);
+            //Console.WriteLine(pair.ToString());
+
+            //Pair<int, string> pair2 = new Pair<int, string>(1, "Zeina");
+            //Console.WriteLine(pair2.ToString());
+
+
+            #endregion
         }
     }
 }
