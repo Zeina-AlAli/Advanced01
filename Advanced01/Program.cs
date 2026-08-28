@@ -27,6 +27,23 @@
 
 
             #endregion
+
+            #region Q4 : Generic Method
+            //Console.WriteLine("\nGeneric method is a method that can work with different type parameter, method can be generic even if class isnt");
+            //Console.WriteLine("\nFor Example");
+            //int a = 2;
+            //int b = 3;
+            //Console.WriteLine($"Before Swapping : a = {a}, b = {b}");
+            //GenericMethod.Swap<int>(ref a, ref b);
+            //Console.WriteLine($"After Swapping : a = {a}, b = {b}");
+
+            //string st1 = "clean";
+            //string st2 = "code";
+            //Console.WriteLine($"\nBefore swapping : st1 = {st1}, st2 = {st2}");
+            //GenericMethod.Swap<string> (ref st1, ref st2);
+            //Console.WriteLine($"After swapping : st1 = {st1}, st2 = {st2}");
+
+            #endregion
         }
     }
 }
