@@ -44,6 +44,18 @@
             //Console.WriteLine($"After swapping : st1 = {st1}, st2 = {st2}");
 
             #endregion
+
+            #region Q5 : Generic Method FindMax
+            //Console.WriteLine("int Example: ");
+            //int max = GenericMethod.FindMax<int>(10, 20);
+            //Console.WriteLine($"Max number : {max}");
+
+            //Console.WriteLine("string example: ");
+            //string Max = GenericMethod.FindMax<string>("Apple", "Banana");
+            //Console.WriteLine($"Max value : {Max}");
+
+
+            #endregion
         }
     }
 }
