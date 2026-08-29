@@ -9,4 +9,5 @@ namespace Advanced01
       void Add(T item);
         T Get();
     }
+
 }

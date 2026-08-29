@@ -65,6 +65,16 @@
             //string GetItem = prdt.Get();
             //Console.WriteLine($"The product : {GetItem}");
             #endregion
+
+            #region Q7 : Struct Constraint
+
+            //Console.WriteLine("The struct constraint restrict the generic type to value type only");
+            //Console.WriteLine("For Esxample");
+            //StructValue<double> stv = new StructValue<double>(3.5);
+            //Console.WriteLine(stv.Value);
+            ////StructValue<string> stv2 = new StructValue<string>("struct"); //Error reference type not allowed
+
+             #endregion
         }
     }
 }
