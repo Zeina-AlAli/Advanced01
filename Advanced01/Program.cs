@@ -74,7 +74,16 @@
             //Console.WriteLine(stv.Value);
             ////StructValue<string> stv2 = new StructValue<string>("struct"); //Error reference type not allowed
 
-             #endregion
+            #endregion
+
+            #region Q8 : Calss Constraints
+            Console.WriteLine("Class Constraints restricts the generic type to reference type only.");
+            Console.WriteLine("\nFor Example");
+            ReferenceValue<string> rfv = new ReferenceValue<string>("class");
+            Console.WriteLine(rfv.Value);
+
+            //ReferenceValue<int> rfv2 = new ReferenceValue<int>(2); //Error
+            #endregion
         }
     }
 }
