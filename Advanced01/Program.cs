@@ -84,6 +84,15 @@
 
             //ReferenceValue<int> rfv2 = new ReferenceValue<int>(2); //Error
             #endregion
+
+            #region Q9 : new() Constraints
+
+            //Console.WriteLine("The new() constraint forces the generic type to have a parameterless constructor");
+            //Console.WriteLine("For Example:");
+            //Person<Student> person = new Person<Student>();//Student class have parameterless constructor
+            //person.create();
+
+            #endregion
         }
     }
 }
