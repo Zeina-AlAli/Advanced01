@@ -103,6 +103,16 @@
 
             #endregion
 
+            #region Q11 : Base Class Constraint
+
+            //Console.WriteLine("Base class Constraint requires the genefric type parameter to inherit from specific base class\n.");
+            //// For Example:  >>>>>>>>>>>>>>>>>>>> Base class : Animal - Child class : Dog - Base Class Constraint : Animal Container
+
+            //AnimalContainer<Dog> D = new AnimalContainer<Dog>();
+            //Dog dog = new Dog();
+            //D.Feed(dog);
+
+            #endregion
         }
     }
 }
