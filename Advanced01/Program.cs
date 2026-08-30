@@ -77,10 +77,10 @@
             #endregion
 
             #region Q8 : Calss Constraints
-            Console.WriteLine("Class Constraints restricts the generic type to reference type only.");
-            Console.WriteLine("\nFor Example");
-            ReferenceValue<string> rfv = new ReferenceValue<string>("class");
-            Console.WriteLine(rfv.Value);
+            //Console.WriteLine("Class Constraints restricts the generic type to reference type only.");
+            //Console.WriteLine("\nFor Example");
+            //ReferenceValue<string> rfv = new ReferenceValue<string>("class");
+            //Console.WriteLine(rfv.Value);
 
             //ReferenceValue<int> rfv2 = new ReferenceValue<int>(2); //Error
             #endregion
@@ -93,6 +93,16 @@
             //person.create();
 
             #endregion
+
+            #region Q10 : Interface Constraint
+            //Console.WriteLine("Interface constraint requirs the generic type Parameter to implement a specific interface");
+            //Console.WriteLine("for Example:"); //>>>>>>>>>>>>>>>>>>>>>> Interface class: IPrintable - "T" that Implement the Interface: ImplementInterface - Interface Constraint class: InterfaceConstraint
+            //InterfaceConstraint<ImplementInterface> ifc = new InterfaceConstraint<ImplementInterface>();
+            //ImplementInterface imp = new ImplementInterface();
+            //ifc.PrintText(imp);
+
+            #endregion
+
         }
     }
 }
