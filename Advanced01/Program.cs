@@ -152,6 +152,10 @@
             //Console.WriteLine("Contravariance : Allows generic interface and  generic delegate to use less derived type when more derived type expected, it uses the 'in' keyword.\n'in' keyword : is used only when the type is received.");
             #endregion
 
+            #region Q17 : Covariance vs Contravariance
+            //Console.WriteLine("Covariance lets you to use a producer of a specific type as a producer of a more general type where Contravariance lets you to use a producer of a general type as a producer of a more specific type.");
+            #endregion
+
         }
     }
 }
