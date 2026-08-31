@@ -113,6 +113,17 @@
             //D.Feed(dog);
 
             #endregion
+
+            #region Q12 : Multiple Constraints
+
+            //Console.WriteLine("\nTo apply (Combine) multiple constraints , you are supposed to aplly them in a specific order if the constraints are different:\n1) Base class\n2) Interfaces\n3) new()");
+            //// For Example  >>>>>>>>>>>>>>>>>>>>>>>>> The generic class with multi cons. : Manager - the "T" that implement all Cons. : Document class
+
+            //Manager<Document> mng = new Manager<Document>();
+            //Document doc = new Document();
+            //mng.GetAndPrint();
+
+            #endregion
         }
     }
 }
