@@ -124,6 +124,12 @@
             //mng.GetAndPrint();
 
             #endregion
+
+            #region Q13 : Default Keyword
+
+            // Console.WriteLine(" 'default'  keyword returns the default value of a specific type.");
+
+            #endregion
         }
     }
 }
