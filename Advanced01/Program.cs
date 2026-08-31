@@ -141,6 +141,13 @@
             //list.GetItem(5);
 
             #endregion
+
+            #region Q15 : Covariance and 'out' Keyword
+
+            //Console.WriteLine("Covariance : Allows generic interface and generic delegates to use a more derived type when less derived type expected, it uses the 'out' keyword.\n'out' keyword : used when the type is only returned.");
+
+            #endregion
+           
         }
     }
 }
