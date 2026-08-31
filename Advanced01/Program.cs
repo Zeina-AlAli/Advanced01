@@ -156,6 +156,22 @@
             //Console.WriteLine("Covariance lets you to use a producer of a specific type as a producer of a more general type where Contravariance lets you to use a producer of a general type as a producer of a more specific type.");
             #endregion
 
+            #region Q18 : static members with generic types
+
+            //Console.WriteLine("Statoc members in a generic type is shared by all objects of the same clossed generic type.");
+            //// For Example >>>>>>>>>>> generic class : Counter - with int static count
+
+            //Counter<int> a = new Counter<int>(); // obj1
+            //Counter<int> b = new Counter<int>(); // obj2
+
+            //Counter<string> c = new Counter<string>();
+           
+
+            //Console.WriteLine($"Count with generic static int : {Counter<int>.count}");
+            //Console.WriteLine($"Count with generic string : {Counter<string>.count}");
+
+            #endregion
+
         }
     }
 }
