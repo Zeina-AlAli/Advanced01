@@ -130,6 +130,17 @@
             // Console.WriteLine(" 'default'  keyword returns the default value of a specific type.");
 
             #endregion
+
+            #region Q14 : List<> returns default
+
+            //SafeList<int> list = new SafeList<int>();
+            //list.AddItem(10);
+            //list.AddItem(20);
+            //list.AddItem(30);
+            //list.GetItem(0);
+            //list.GetItem(5);
+
+            #endregion
         }
     }
 }
