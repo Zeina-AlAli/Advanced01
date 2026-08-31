@@ -178,6 +178,26 @@
 
             #endregion
 
+            #region Q20 : Cache<TKey, TValue>
+
+            //Cache<int, string> cache = new Cache<int, string>();
+            //cache.Add(1, "zeina", 10);
+            //cache.Add(2, "mona", 8);
+            //cache.Add(3, "rama", 9);
+
+            //Console.WriteLine(cache.Get(1));
+            //Console.WriteLine(cache.Get(2));
+
+            //Console.WriteLine(cache.Contain(3));
+            //cache.Remove(1);
+            //Console.WriteLine(cache.Contain(1));
+
+
+
+
+            #endregion
+
+
         }
     }
 }
