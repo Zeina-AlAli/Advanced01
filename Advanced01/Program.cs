@@ -165,10 +165,16 @@
             //Counter<int> b = new Counter<int>(); // obj2
 
             //Counter<string> c = new Counter<string>();
-           
+
 
             //Console.WriteLine($"Count with generic static int : {Counter<int>.count}");
             //Console.WriteLine($"Count with generic string : {Counter<string>.count}");
+
+            #endregion
+
+            #region Q19 : inherit from generic class
+
+            //Console.WriteLine("there are two ways to inheret from a generic class: \n1) By specifying the type parameter of the generic class\n2) By passing the generic type parameter to the derived class");
 
             #endregion
 
